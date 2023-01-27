@@ -1,0 +1,62 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+.conteudo {
+    background-color: white;
+    height: 500px;
+    width: 660px;
+    display: flex;
+    border-radius: 18px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 6%;
+}
+
+.conteudo img {
+    height: 500px;
+    border-radius: 20px;
+
+}
+.informacoes {
+ padding: 20px;
+ display: grid;
+}
+.conteudo .informacoes .tema {
+    font-family:'Fraunces', serif;
+    opacity: 0.6;
+}
+.conteudo .titulo {
+    font-family:  'Montserrat', sans-serif;
+
+}
+.conteudo .informacoes .texto {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.conteudo .preco .preco_atual {
+    display: inline-block;
+    font-size: 30px;
+    font-family:'Fraunces', serif;
+}
+.conteudo .informacoes .preco_antigo {
+    padding-left: 25px;
+    position: relative;
+    font-family:'Fraunces', serif;
+    bottom: 5px;
+}
+.conteudo .informacoes .botao {
+    position: relative;
+    width: 290px;
+    height: 60px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    font-size: large;
+}
+.attribution {
+    text-align: center;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
